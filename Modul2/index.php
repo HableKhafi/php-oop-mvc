@@ -17,13 +17,40 @@ $mhs2 = new Mahasiswa("Zeya Zevia Amalia", "2310010178");
     <meta charset="UTF-8">
     <title>Modul 2: Konstruktor dan $this</title>
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #f4f7f9; margin: 0; padding: 20px; }
-        .container { max-width: 600px; margin: 20px auto; background-color: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        h2 { color: #34495e; margin-top: 30px; }
-        .output { background-color: #ecf0f1; border-left: 5px solid #3498db; padding: 15px; margin-bottom: 20px; border-radius: 6px; }
-        .constructor-output { font-weight: bold; color: #1e8449; margin-bottom: 10px; }
-        .destructor-output { font-style: italic; color: #c0392b; margin-top: 10px; }
+        body { 
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+            margin: 0; 
+            padding: 20px; }
+        .container { 
+            max-width: 600px; 
+            margin: 20px auto; 
+            background-color: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        h1 { 
+            color: #2c3e50; 
+            border-bottom: 2px solid #3498db; 
+            padding-bottom: 10px; }
+        h2 { 
+            color: #34495e; 
+            margin-top: 30px; }
+        .output { 
+            background-color: #ecf0f1; 
+            border-left: 5px solid #3498db; 
+            padding: 15px; 
+            margin-bottom: 20px; 
+            border-radius: 6px;
+         }
+        .constructor-output { 
+            font-weight: bold; 
+            color: #1e8449; 
+            margin-bottom: 10px; }
+        .destructor-output { 
+            font-style: italic; 
+            color: #c0392b; 
+            margin-top: 10px; }
     </style>
 </head>
 <body>
