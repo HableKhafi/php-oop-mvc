@@ -1,0 +1,5 @@
+Siapa yang menerima permintaan ini pertama kali? Router (Front Controller), yang kemudian memberikannya ke Controller.
+
+Siapa yang berinteraksi dengan database? Model.
+
+Siapa yang menampilkan hasil akhirnya? View.
