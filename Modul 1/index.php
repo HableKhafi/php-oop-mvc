@@ -65,7 +65,7 @@ $mhs2->nim = "2310010178";
                  <?php $mhs1->sayHello();?>
             </div>
 
-            <h2>Objek Kedua : <?php echo $mhs1->nama;?></h2>
+            <h2>Objek Kedua : <?php echo $mhs2->nama;?></h2>
             <div class="output">
                 <!-- 5. Memanggil Metode Objek -->
                  <?php $mhs2->sayHello();?>
