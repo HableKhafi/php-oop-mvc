@@ -5,10 +5,10 @@ require_once 'LoginInterface.php'; // Penting: Muat Interface
 require_once 'Admin.php';
 
 // 1. Instansiasi Objek User Biasa
-$user1 = new User("Rani Permata");
+$user1 = new User("Zeviyaa");
 
 // 2. Instansiasi Objek Admin (Kelas Anak yang juga mengimplementasikan Interface)
-$admin1 = new Admin("Gagah Perkasa");
+$admin1 = new Admin("Hable Khafi");
 ?>
 <!DOCTYPE html>
 <html lang="id">
