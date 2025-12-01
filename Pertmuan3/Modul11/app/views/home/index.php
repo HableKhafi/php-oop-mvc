@@ -1,9 +1,16 @@
-<div class="container">
-    <div class="jumbotron mt-4">
-      <h1 class="display-4">Selamat Datang di Website Saya!</h1>
-      <p class="lead">Halo, nama saya <?= $data['nama']; ?></p>
-      <hr class="my-4">
-      <p>Itommey</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+
+
+    <div class="container">
+        <h1><?php echo isset($judul) ? htmlspecialchars($judul) : 'Selamat Datang!'; ?></h1>
+        <h2>Framework MVC Lokal Anda</h2>
+        <p>Aplikasi ini dijalankan oleh **Controller Home** melalui **Metode index()**.</p>
+
+        <?php if (isset($nama)) : ?>
+            <div class="info-box">
+                <p>Data dinamis berhasil dikirimkan dari Controller:</p>
+                <p>Halo, nama saya adalah <strong><?php echo htmlspecialchars($nama); ?></strong>.</p>
+            </div>
+        <?php endif; ?>
+
     </div>
-</div>
+

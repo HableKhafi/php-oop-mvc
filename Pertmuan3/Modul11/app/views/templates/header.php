@@ -17,10 +17,13 @@
 </head>
 <body>
     <div class="navbar">
-        <span class="logo">Simple MVC App</span>
+        <span class="logo">CRUD MAHASISWA</span>
         <div>
-            <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="<?= BASEURL; ?>">Home</a>
+
+            <a href="<?= BASEURL; ?>/mahasiswa">Data Mahasiswa</a>
+
+            <a href="<?= BASEURL; ?>/about">About</a>
         </div>
     </div>
 
