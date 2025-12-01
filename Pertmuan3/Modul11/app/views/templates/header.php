@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($judul) ? htmlspecialchars($judul) : 'Judul Default'; ?> | MVC Sederhana</title>
+    <title><?php echo isset($judul) ? htmlspecialchars($judul) : 'CRUD'; ?> | MAHASISWA</title>
 
     <style>
         body { font-family: 'Arial', sans-serif; margin: 0; background-color: #f4f4f9; color: #333; }
