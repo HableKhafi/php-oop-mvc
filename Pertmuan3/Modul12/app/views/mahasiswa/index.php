@@ -8,7 +8,7 @@
 
     <br><br>
 
-    <table class=""table>
+    <table>
         <thead>
             <tr>
                 <th width="5%">No</th>
