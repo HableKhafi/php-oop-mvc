@@ -4,27 +4,27 @@
     <form action="<?= BASEURL; ?>/mahasiswa/<?= $data['aksi']; ?>" method="post">
         
         <?php if(isset($data['mhs']['id'])): ?>
-            <input type="hidden" name="id" value="<?= $data['mhs']['id']; ?>">
+            <input class="form-control" type="hidden" name="id" value="<?= $data['mhs']['id']; ?>">
         <?php endif; ?>
 
-        <div class="form-group">
+        <div class="mb-3">
             <label>Nama:</label>
-            <input type="text" name="nama" value="<?= isset($data['mhs']['nama']) ? $data['mhs']['nama'] : ''; ?>" required>
+            <input class="form-control" type="text" name="nama" value="<?= isset($data['mhs']['nama']) ? $data['mhs']['nama'] : ''; ?>" required>
         </div>
 
-        <div class="form-group">
+        <div class="mb-3">
             <label>NPM:</label>
-            <input type="text" name="npm" value="<?= isset($data['mhs']['npm']) ? $data['mhs']['npm'] : ''; ?>" required>
+            <input class="form-control" type="text" name="npm" value="<?= isset($data['mhs']['npm']) ? $data['mhs']['npm'] : ''; ?>" required>
         </div>
 
-        <div class="form-group">
+        <div class="mb-3">
             <label>Email:</label>
-            <input type="email" name="email" value="<?= isset($data['mhs']['email']) ? $data['mhs']['email'] : ''; ?>">
+            <input class="form-control" type="email" name="email" value="<?= isset($data['mhs']['email']) ? $data['mhs']['email'] : ''; ?>">
         </div>
 
-        <div class="form-group">
-            <label>Jurusan:</label>
-            <select name="jurusan">
+        <div class="mb-3">
+            <label class="form-label">Jurusan:</label>
+            <select class="form-control" name="jurusan">
                 <?php $j = isset($data['mhs']['jurusan']) ? $data['mhs']['jurusan'] : ''; ?>
                 <option value="Teknik Informatika" <?= $j == 'Teknik Informatika' ? 'selected' : ''; ?>>Teknik Informatika</option>
                 <option value="Sistem Informasi" <?= $j == 'Sistem Informasi' ? 'selected' : ''; ?>>Sistem Informasi</option>

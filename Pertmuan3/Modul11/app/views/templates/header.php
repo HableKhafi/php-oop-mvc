@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($judul) ? htmlspecialchars($judul) : 'CRUD'; ?> | MAHASISWA</title>
@@ -14,6 +16,7 @@
         h1 { color: #007bff; border-bottom: 2px solid #ccc; padding-bottom: 10px; }
         
     </style>
+
 </head>
 <body>
     <div class="navbar">
