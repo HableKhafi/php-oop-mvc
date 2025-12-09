@@ -20,7 +20,7 @@
 </head>
 <body>
     <div class="navbar">
-        <span class="logo">CRUD MAHASISWA</span>
+        <span class="logo">Sistem Informasi Akademik</span>
         <div>
             <a href="<?= BASEURL; ?>">Home</a>
 
